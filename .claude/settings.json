@@ -1,7 +1,7 @@
 {
     "permissions": {
         "allow": ["Bash(npm test)", "Bash(git *)", "LS", "Glob", "Grep", "WebFetch"],
-        "deny": ["Bash(git push *)", "Read(cat .env*)"],
-        "ask": ["Bash(git commit *)"]
+        "deny": ["Read(cat .env*)"],
+        "ask": ["Bash(git commit *)", "Bash(git push *)"]
     }
 }
