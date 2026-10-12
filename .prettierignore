@@ -8,4 +8,12 @@
 .sf
 .vscode
 
-coverage/package-lock.json
+coverage/
+package-lock.json
+
+# Org-generated metadata: keep files identical to `sf project retrieve` output,
+# otherwise every retrieve produces formatting-only diffs.
+# Applies to the pre-commit hook, `npm run prettier` and format-on-save in VS Code.
+force-app/**/*.xml
+force-app/**/digitalExperiences/**
+manifest/
