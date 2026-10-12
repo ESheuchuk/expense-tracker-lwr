@@ -1,0 +1,23 @@
+{
+    "permissions": {
+        "allow": [
+            "Bash(npm test)",
+            "Bash(git *)",
+            //"Write"
+            "LS",
+            "Glob", // Allow by default
+            "Grep", // Allow by default
+            //"MultiEdit",
+            "WebFetch"
+        ],
+        "deny": [
+            // executed first
+            "Bash(git push *)",
+            "Read(.env*)"
+        ],
+        "ask": [
+            // executed second
+            "Bash(git commit *)"
+        ]
+    }
+}
