@@ -27,6 +27,19 @@ module.exports = defineConfig([
             '@lwc/lwc/valid-wire': 'error',
             '@lwc/lwc/no-deprecated': 'error',
 
+            // Project rule: no @wire, only imperative Apex calls
+            'no-restricted-syntax': [
+                'error',
+                {
+                    selector: "Decorator[expression.name='wire']",
+                    message: 'Use imperative Apex calls instead of @wire.'
+                },
+                {
+                    selector: "Decorator[expression.callee.name='wire']",
+                    message: 'Use imperative Apex calls instead of @wire.'
+                }
+            ],
+
             // Code quality
             'no-console': ['warn', { allow: ['error'] }],
             'no-var': 'error',
@@ -47,6 +60,14 @@ module.exports = defineConfig([
                     caughtErrors: 'none'
                 }
             ]
+        }
+    },
+
+    // The logger module is the only place allowed to write to the console
+    {
+        files: ['**/lwc/logger/*.js'],
+        rules: {
+            'no-console': 'off'
         }
     },
 

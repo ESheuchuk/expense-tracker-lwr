@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Auth_Error_Generic</fullName>
+        <categories>ExpenseTracker</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Auth Error Generic</shortDescription>
+        <value>Something went wrong. Please try again later.</value>
+    </labels>
+    <labels>
+        <fullName>Auth_Error_Invalid_Credentials</fullName>
+        <categories>ExpenseTracker</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Auth Error Invalid Credentials</shortDescription>
+        <value>Incorrect email or password.</value>
+    </labels>
+    <labels>
+        <fullName>Auth_Error_Required_Fields</fullName>
+        <categories>ExpenseTracker</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Auth Error Required Fields</shortDescription>
+        <value>Please fill in all required fields.</value>
+    </labels>
+    <labels>
+        <fullName>Auth_Error_Invalid_Email</fullName>
+        <categories>ExpenseTracker</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Auth Error Invalid Email</shortDescription>
+        <value>Please enter a valid email address.</value>
+    </labels>
+    <labels>
+        <fullName>Auth_Error_Password_Mismatch</fullName>
+        <categories>ExpenseTracker</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Auth Error Password Mismatch</shortDescription>
+        <value>Passwords do not match.</value>
+    </labels>
+    <labels>
+        <fullName>Auth_Error_User_Exists</fullName>
+        <categories>ExpenseTracker</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Auth Error User Exists</shortDescription>
+        <value>An account with this email already exists.</value>
+    </labels>
+    <labels>
+        <fullName>Auth_Error_Registered_Login_Failed</fullName>
+        <categories>ExpenseTracker</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Auth Error Registered Login Failed</shortDescription>
+        <value>Your account was created, but we could not log you in. Please log in manually.</value>
+    </labels>
+    <labels>
+        <fullName>Site_Name</fullName>
+        <categories>ExpenseTracker</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Site Name</shortDescription>
+        <value>Expense Tracker</value>
+    </labels>
+    <labels>
+        <fullName>Nav_Login</fullName>
+        <categories>ExpenseTracker</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Nav Login</shortDescription>
+        <value>Log In</value>
+    </labels>
+    <labels>
+        <fullName>Nav_Register</fullName>
+        <categories>ExpenseTracker</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Nav Register</shortDescription>
+        <value>Sign Up</value>
+    </labels>
+    <labels>
+        <fullName>Nav_Logout</fullName>
+        <categories>ExpenseTracker</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Nav Logout</shortDescription>
+        <value>Log Out</value>
+    </labels>
+    <labels>
+        <fullName>Nav_Home</fullName>
+        <categories>ExpenseTracker</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Nav Home</shortDescription>
+        <value>Home</value>
+    </labels>
+    <labels>
+        <fullName>Nav_Open_App</fullName>
+        <categories>ExpenseTracker</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Nav Open App</shortDescription>
+        <value>Open app</value>
+    </labels>
+    <labels>
+        <fullName>Landing_Hero_Title</fullName>
+        <categories>ExpenseTracker</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Landing Hero Title</shortDescription>
+        <value>Take control of your expenses</value>
+    </labels>
+    <labels>
+        <fullName>Landing_Hero_Subtitle</fullName>
+        <categories>ExpenseTracker</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Landing Hero Subtitle</shortDescription>
+        <value>Track spending, organize categories and see where your money goes. All in one place.</value>
+    </labels>
+    <labels>
+        <fullName>Landing_Hero_Cta</fullName>
+        <categories>ExpenseTracker</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Landing Hero Cta</shortDescription>
+        <value>Get started</value>
+    </labels>
+    <labels>
+        <fullName>Landing_Features_Heading</fullName>
+        <categories>ExpenseTracker</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Landing Features Heading</shortDescription>
+        <value>Everything you need</value>
+    </labels>
+    <labels>
+        <fullName>Landing_Feature_1_Title</fullName>
+        <categories>ExpenseTracker</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Landing Feature 1 Title</shortDescription>
+        <value>Track expenses</value>
+    </labels>
+    <labels>
+        <fullName>Landing_Feature_1_Text</fullName>
+        <categories>ExpenseTracker</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Landing Feature 1 Text</shortDescription>
+        <value>Record every purchase in seconds and keep a clear history.</value>
+    </labels>
+    <labels>
+        <fullName>Landing_Feature_2_Title</fullName>
+        <categories>ExpenseTracker</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Landing Feature 2 Title</shortDescription>
+        <value>Organize categories</value>
+    </labels>
+    <labels>
+        <fullName>Landing_Feature_2_Text</fullName>
+        <categories>ExpenseTracker</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Landing Feature 2 Text</shortDescription>
+        <value>Group spending by category and payment method.</value>
+    </labels>
+    <labels>
+        <fullName>Landing_Feature_3_Title</fullName>
+        <categories>ExpenseTracker</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Landing Feature 3 Title</shortDescription>
+        <value>See the big picture</value>
+    </labels>
+    <labels>
+        <fullName>Landing_Feature_3_Text</fullName>
+        <categories>ExpenseTracker</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Landing Feature 3 Text</shortDescription>
+        <value>Budgets and reports are coming soon.</value>
+    </labels>
+    <labels>
+        <fullName>Footer_Text</fullName>
+        <categories>ExpenseTracker</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Footer Text</shortDescription>
+        <value>Expense Tracker. All rights reserved.</value>
+    </labels>
+    <labels>
+        <fullName>Login_Title</fullName>
+        <categories>ExpenseTracker</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Login Title</shortDescription>
+        <value>Log in to your account</value>
+    </labels>
+    <labels>
+        <fullName>Login_Email</fullName>
+        <categories>ExpenseTracker</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Login Email</shortDescription>
+        <value>Email</value>
+    </labels>
+    <labels>
+        <fullName>Login_Password</fullName>
+        <categories>ExpenseTracker</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Login Password</shortDescription>
+        <value>Password</value>
+    </labels>
+    <labels>
+        <fullName>Login_Submit</fullName>
+        <categories>ExpenseTracker</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Login Submit</shortDescription>
+        <value>Log In</value>
+    </labels>
+    <labels>
+        <fullName>Login_Forgot</fullName>
+        <categories>ExpenseTracker</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Login Forgot</shortDescription>
+        <value>Forgot your password?</value>
+    </labels>
+    <labels>
+        <fullName>Login_No_Account</fullName>
+        <categories>ExpenseTracker</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Login No Account</shortDescription>
+        <value>Don't have an account?</value>
+    </labels>
+    <labels>
+        <fullName>Login_Show_Password</fullName>
+        <categories>ExpenseTracker</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Login Show Password</shortDescription>
+        <value>Show password</value>
+    </labels>
+    <labels>
+        <fullName>Login_Hide_Password</fullName>
+        <categories>ExpenseTracker</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Login Hide Password</shortDescription>
+        <value>Hide password</value>
+    </labels>
+    <labels>
+        <fullName>Register_Title</fullName>
+        <categories>ExpenseTracker</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Register Title</shortDescription>
+        <value>Create your account</value>
+    </labels>
+    <labels>
+        <fullName>Register_First_Name</fullName>
+        <categories>ExpenseTracker</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Register First Name</shortDescription>
+        <value>First name</value>
+    </labels>
+    <labels>
+        <fullName>Register_Last_Name</fullName>
+        <categories>ExpenseTracker</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Register Last Name</shortDescription>
+        <value>Last name</value>
+    </labels>
+    <labels>
+        <fullName>Register_Confirm_Password</fullName>
+        <categories>ExpenseTracker</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Register Confirm Password</shortDescription>
+        <value>Confirm password</value>
+    </labels>
+    <labels>
+        <fullName>Register_Submit</fullName>
+        <categories>ExpenseTracker</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Register Submit</shortDescription>
+        <value>Sign Up</value>
+    </labels>
+    <labels>
+        <fullName>Register_Have_Account</fullName>
+        <categories>ExpenseTracker</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Register Have Account</shortDescription>
+        <value>Already have an account?</value>
+    </labels>
+    <labels>
+        <fullName>Welcome_Title</fullName>
+        <categories>ExpenseTracker</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Welcome Title</shortDescription>
+        <value>Welcome to Expense Tracker!</value>
+    </labels>
+    <labels>
+        <fullName>Welcome_Text</fullName>
+        <categories>ExpenseTracker</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Welcome Text</shortDescription>
+        <value>You are all set. Your expense dashboard is on its way: soon you will be able to add expenses, organize categories and track budgets right here.</value>
+    </labels>
+    <labels>
+        <fullName>Common_Loading</fullName>
+        <categories>ExpenseTracker</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Common Loading</shortDescription>
+        <value>Loading…</value>
+    </labels>
+    <labels>
+        <fullName>Common_Validation_Required</fullName>
+        <categories>ExpenseTracker</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Common Validation Required</shortDescription>
+        <value>Complete this field.</value>
+    </labels>
+    <labels>
+        <fullName>Forgot_Title</fullName>
+        <categories>ExpenseTracker</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Forgot Title</shortDescription>
+        <value>Reset your password</value>
+    </labels>
+    <labels>
+        <fullName>Forgot_Instructions</fullName>
+        <categories>ExpenseTracker</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Forgot Instructions</shortDescription>
+        <value>Enter the email you signed up with. If an account exists, we will send you a link to reset your password.</value>
+    </labels>
+    <labels>
+        <fullName>Forgot_Submit</fullName>
+        <categories>ExpenseTracker</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Forgot Submit</shortDescription>
+        <value>Send reset link</value>
+    </labels>
+    <labels>
+        <fullName>Forgot_Success</fullName>
+        <categories>ExpenseTracker</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Forgot Success</shortDescription>
+        <value>If an account with this email exists, you will receive a password reset link shortly.</value>
+    </labels>
+    <labels>
+        <fullName>Forgot_Back_To_Login</fullName>
+        <categories>ExpenseTracker</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Forgot Back To Login</shortDescription>
+        <value>Back to log in</value>
+    </labels>
+</CustomLabels>

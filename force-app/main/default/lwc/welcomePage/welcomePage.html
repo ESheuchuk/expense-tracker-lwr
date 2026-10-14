@@ -1,0 +1,23 @@
+<template>
+    <div class="welcome">
+        <c-site-header
+            is-guest={isGuest}
+            onhome={handleHome}
+            onlogin={handleLogin}
+            onregister={handleRegister}
+            onopenapp={handleOpenApp}
+            onlogout={handleLogout}
+        ></c-site-header>
+        <main class="welcome__body">
+            <h1 class="welcome__title">{labels.title}</h1>
+            <p class="welcome__text">{labels.text}</p>
+            <lightning-button
+                variant="neutral"
+                label={labels.home}
+                data-id="home"
+                onclick={handleHome}
+            ></lightning-button>
+        </main>
+        <c-site-footer></c-site-footer>
+    </div>
+</template>

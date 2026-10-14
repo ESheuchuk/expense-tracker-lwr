@@ -4,7 +4,7 @@
   "contentBody" : {
     "activeViewId" : "checkPasswordResetEmail",
     "configurationTags" : [ ],
-    "pageAccess" : "UseParent",
+    "pageAccess" : "Public",
     "routeType" : "check-password",
     "urlPrefix" : "CheckPasswordResetEmail"
   },

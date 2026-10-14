@@ -1,0 +1,78 @@
+<template>
+    <c-auth-card title={labels.title}>
+        <form class="form" onsubmit={handleSubmit} novalidate>
+            <div lwc:if={errorMessage} class="form__error" role="alert">{errorMessage}</div>
+            <div class="form__row">
+                <lightning-input
+                    class="form__field"
+                    name="firstName"
+                    label={labels.firstName}
+                    autocomplete="given-name"
+                    value={firstName}
+                    onchange={handleChange}
+                ></lightning-input>
+                <lightning-input
+                    class="form__field"
+                    name="lastName"
+                    label={labels.lastName}
+                    autocomplete="family-name"
+                    required
+                    message-when-value-missing={labels.required}
+                    value={lastName}
+                    onchange={handleChange}
+                ></lightning-input>
+            </div>
+            <lightning-input
+                class="form__field"
+                type="email"
+                name="email"
+                label={labels.email}
+                autocomplete="email"
+                required
+                message-when-value-missing={labels.required}
+                value={email}
+                onchange={handleChange}
+            ></lightning-input>
+            <c-password-input
+                class="form__field"
+                name="password"
+                label={labels.password}
+                autocomplete="new-password"
+                required
+                message-when-value-missing={labels.required}
+                value={password}
+                onchange={handleChange}
+            ></c-password-input>
+            <c-password-input
+                class="form__field"
+                name="confirmPassword"
+                data-id="confirmPassword"
+                label={labels.confirmPassword}
+                autocomplete="new-password"
+                required
+                message-when-value-missing={labels.required}
+                value={confirmPassword}
+                onchange={handleChange}
+            ></c-password-input>
+            <lightning-button
+                class="form__submit"
+                type="submit"
+                variant="brand"
+                label={labels.submit}
+                disabled={isLoading}
+            ></lightning-button>
+            <div lwc:if={isLoading} class="form__spinner">
+                <lightning-spinner
+                    alternative-text={labels.loading}
+                    size="small"
+                ></lightning-spinner>
+            </div>
+        </form>
+        <div slot="footer" class="links">
+            <p class="links__row">
+                <span>{labels.haveAccount}</span>
+                <a href={loginUrl} data-id="login" onclick={handleLogin}>{labels.loginLink}</a>
+            </p>
+        </div>
+    </c-auth-card>
+</template>

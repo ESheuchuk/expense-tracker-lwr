@@ -1,0 +1,10 @@
+:host {
+    display: block;
+}
+
+.footer {
+    padding: 1.5rem 1rem;
+    color: var(--dxp-g-root-contrast, #666);
+    text-align: center;
+    background: var(--dxp-g-root-1, #f3f3f3);
+}

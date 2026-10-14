@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Console_Enabled__c</fullName>
+    <defaultValue>true</defaultValue>
+    <description>Whether LWC logger writes to the browser console.</description>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Console Enabled</label>
+    <type>Checkbox</type>
+</CustomField>

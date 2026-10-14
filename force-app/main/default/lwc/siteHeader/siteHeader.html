@@ -1,0 +1,39 @@
+<template>
+    <header class="header">
+        <button type="button" class="header__brand" onclick={handleHome}>{labels.siteName}</button>
+        <nav class="header__actions" aria-label={labels.siteName}>
+            <template lwc:if={isGuest}>
+                <lightning-button
+                    class="header__btn"
+                    variant="neutral"
+                    label={labels.login}
+                    data-id="login"
+                    onclick={handleLogin}
+                ></lightning-button>
+                <lightning-button
+                    class="header__btn"
+                    variant="brand"
+                    label={labels.register}
+                    data-id="register"
+                    onclick={handleRegister}
+                ></lightning-button>
+            </template>
+            <template lwc:else>
+                <lightning-button
+                    class="header__btn"
+                    variant="brand"
+                    label={labels.openApp}
+                    data-id="openApp"
+                    onclick={handleOpenApp}
+                ></lightning-button>
+                <lightning-button
+                    class="header__btn"
+                    variant="neutral"
+                    label={labels.logout}
+                    data-id="logout"
+                    onclick={handleLogout}
+                ></lightning-button>
+            </template>
+        </nav>
+    </header>
+</template>

@@ -1,0 +1,48 @@
+:host {
+    display: block;
+}
+
+.hero {
+    padding: 2.5rem 1rem;
+    text-align: center;
+    background: var(--dxp-g-root-1, #eaf5fe);
+}
+
+.hero__title {
+    margin: 0 0 0.75rem;
+    font-size: 1.75rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--dxp-g-brand, #032d60);
+}
+
+.hero__subtitle {
+    max-width: 36rem;
+    margin: 0 auto 1.5rem;
+    font-size: 1rem;
+    color: var(--dxp-g-root-contrast, #444);
+}
+
+@media (min-width: 48em) {
+    .hero {
+        padding: 4rem 2rem;
+    }
+
+    .hero__title {
+        font-size: 2.5rem;
+    }
+
+    .hero__subtitle {
+        font-size: 1.125rem;
+    }
+}
+
+@media (min-width: 64em) {
+    .hero {
+        padding: 5rem 2rem;
+    }
+
+    .hero__title {
+        font-size: 3rem;
+    }
+}

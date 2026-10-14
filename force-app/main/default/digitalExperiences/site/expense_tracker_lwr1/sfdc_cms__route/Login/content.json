@@ -4,7 +4,7 @@
   "contentBody" : {
     "activeViewId" : "login",
     "configurationTags" : [ ],
-    "pageAccess" : "UseParent",
+    "pageAccess" : "Public",
     "routeType" : "login-main",
     "urlPrefix" : "login"
   },

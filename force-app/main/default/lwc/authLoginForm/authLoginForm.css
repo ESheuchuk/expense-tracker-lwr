@@ -1,0 +1,46 @@
+:host {
+    display: block;
+}
+
+.form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.form__error {
+    padding: 0.75rem;
+    color: var(--dxp-g-destructive-contrast, #fff);
+    background: var(--dxp-g-destructive, #ba0517);
+    border-radius: 0.25rem;
+}
+
+.form__submit {
+    align-self: stretch;
+}
+
+.form__spinner {
+    position: relative;
+    height: 2rem;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* LWC drops whitespace between an expression and an element, so spacing comes from the gap */
+.links__row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.25rem;
+    margin: 0;
+}
+
+.links a {
+    color: var(--dxp-s-link-text-color, #0b5cab);
+}

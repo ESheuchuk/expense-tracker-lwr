@@ -1,0 +1,17 @@
+<template>
+    <div class="landing">
+        <c-site-header
+            is-guest={isGuest}
+            onhome={handleHome}
+            onlogin={handleLogin}
+            onregister={handleRegister}
+            onopenapp={handleOpenApp}
+            onlogout={handleLogout}
+        ></c-site-header>
+        <main>
+            <c-hero-section is-guest={isGuest} oncta={handleRegister}></c-hero-section>
+            <c-feature-list heading={labels.featuresHeading} features={features}></c-feature-list>
+        </main>
+        <c-site-footer></c-site-footer>
+    </div>
+</template>

@@ -9,6 +9,7 @@
             "backgroundImageConfig" : "",
             "backgroundImageOverlay" : "rgba(0,0,0,0)",
             "componentSpacerSize" : "",
+            "dxpStyle" : { },
             "layoutDirectionDesktop" : "row",
             "layoutDirectionMobile" : "column",
             "layoutDirectionTablet" : "column",
@@ -21,28 +22,10 @@
           "children" : [ {
             "children" : [ {
               "attributes" : {
-                "alignment" : "left",
-                "imageInfo" : "",
-                "imageInfoMobile" : "",
-                "logoWidth" : 250
+                "dxpStyle" : { }
               },
-              "definition" : "dxp_content_layout:siteLogo",
-              "id" : "f61454b0-6ca7-47cc-90c9-e8c4946acb80",
-              "type" : "component"
-            }, {
-              "attributes" : {
-                "cancelLinkLabel" : "Already have an account?",
-                "confirmPasswordLabel" : "Confirm Password",
-                "emailLabel" : "Email",
-                "firstnameLabel" : "First Name",
-                "includePasswordField" : true,
-                "lastnameLabel" : "Last Name",
-                "passwordLabel" : "Create Password",
-                "regConfirmUrl" : "./CheckPasswordResetEmail",
-                "submitButtonLabel" : "Sign Up"
-              },
-              "definition" : "community_login:selfRegister",
-              "id" : "39584c0e-b623-4ff6-8b56-3a56081e15e0",
+              "definition" : "c:authRegisterForm",
+              "id" : "a7c7217c-5339-4111-b138-f7ccfeb3da0c",
               "type" : "component"
             } ],
             "id" : "93fd1949-084c-4d41-8a10-c681568a738b",
@@ -63,6 +46,7 @@
           "attributes" : {
             "customHeadTags" : "",
             "description" : "",
+            "dxpStyle" : { },
             "pageTitle" : "Register",
             "recordId" : "{!recordId}"
           },

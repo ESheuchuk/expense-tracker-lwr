@@ -9,6 +9,7 @@
             "backgroundImageConfig" : "",
             "backgroundImageOverlay" : "rgba(0,0,0,0)",
             "componentSpacerSize" : "",
+            "dxpStyle" : { },
             "layoutDirectionDesktop" : "row",
             "layoutDirectionMobile" : "column",
             "layoutDirectionTablet" : "column",
@@ -20,26 +21,9 @@
           },
           "children" : [ {
             "children" : [ {
-              "attributes" : {
-                "alignment" : "left",
-                "imageInfo" : "",
-                "imageInfoMobile" : "",
-                "logoWidth" : 250
-              },
-              "definition" : "dxp_content_layout:siteLogo",
-              "id" : "1ae48bc7-f4fc-4eee-9dd7-796871b3366e",
-              "type" : "component"
-            }, {
-              "attributes" : {
-                "cancelButtonLabel" : "Cancel",
-                "checkEmailUrl" : "./CheckPasswordResetEmail",
-                "instructionsLabel" : "To reset your password, enter your username. We'll send a reset-password link to the email address associated with your account.",
-                "submitButtonLabel" : "Reset",
-                "titleLabel" : "Forgot your password?",
-                "usernameLabel" : "Username"
-              },
-              "definition" : "community_login:forgotPassword",
-              "id" : "3b581811-c49c-443d-8a75-5f8bfb710097",
+              "attributes" : { },
+              "definition" : "c:authForgotPasswordForm",
+              "id" : "10e2d3d9-3d61-429d-9c7b-b7b29b05f2ca",
               "type" : "component"
             } ],
             "id" : "46256ea5-fa16-4408-8fe8-dd664212c6bb",
@@ -60,6 +44,7 @@
           "attributes" : {
             "customHeadTags" : "",
             "description" : "",
+            "dxpStyle" : { },
             "pageTitle" : "Forgot Password",
             "recordId" : "{!recordId}"
           },

@@ -9,6 +9,7 @@
             "backgroundImageConfig" : "",
             "backgroundImageOverlay" : "rgba(0,0,0,0)",
             "componentSpacerSize" : "",
+            "dxpStyle" : { },
             "layoutDirectionDesktop" : "row",
             "layoutDirectionMobile" : "column",
             "layoutDirectionTablet" : "column",
@@ -21,34 +22,10 @@
           "children" : [ {
             "children" : [ {
               "attributes" : {
-                "alignment" : "left",
-                "imageInfo" : "",
-                "imageInfoMobile" : "",
-                "logoWidth" : 250
+                "dxpStyle" : { }
               },
-              "definition" : "dxp_content_layout:siteLogo",
-              "id" : "c2994519-51c1-41f1-a2ba-ef979bc86ed5",
-              "type" : "component"
-            }, {
-              "attributes" : {
-                "forgotPasswordLabel" : "Forgot your password?",
-                "forgotPasswordUrl" : "/ForgotPassword",
-                "loginButtonLabel" : "Log In",
-                "passwordLabel" : "Password",
-                "selfRegisterLabel" : "Not a member?",
-                "selfRegisterUrl" : "/SelfRegister",
-                "startUrl" : "",
-                "usernameLabel" : "Username"
-              },
-              "definition" : "community_login:loginForm",
-              "id" : "a6453c70-c2b8-4a18-930f-8441ffe37c81",
-              "type" : "component"
-            }, {
-              "attributes" : {
-                "employeeLoginLinkLabel" : "Are you an employee? Log in"
-              },
-              "definition" : "community_login:employeeLoginLink",
-              "id" : "70eef835-0149-4da8-a078-e3679706cf98",
+              "definition" : "c:authLoginForm",
+              "id" : "9c2a4313-c97e-4ddb-bf99-50243eae83c2",
               "type" : "component"
             } ],
             "id" : "d747e2b8-10d4-4c0f-980d-52fcbce8445c",
@@ -69,6 +46,7 @@
           "attributes" : {
             "customHeadTags" : "",
             "description" : "",
+            "dxpStyle" : { },
             "pageTitle" : "Login",
             "recordId" : "{!recordId}"
           },

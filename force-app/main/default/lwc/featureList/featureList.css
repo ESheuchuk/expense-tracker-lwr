@@ -1,0 +1,41 @@
+:host {
+    display: block;
+}
+
+.features {
+    padding: 2rem 1rem;
+}
+
+.features__heading {
+    margin: 0 0 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.features__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    max-width: 72rem;
+    padding: 0;
+    margin: 0 auto;
+    list-style: none;
+}
+
+@media (min-width: 48em) {
+    .features {
+        padding: 3rem 2rem;
+    }
+
+    .features__grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+}
+
+@media (min-width: 64em) {
+    .features__grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

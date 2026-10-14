@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Welcome email for self-registered Expense Tracker users (Network welcomeTemplate). Users log in with their email, so the technical username is not shown.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Expense Tracker: Welcome</name>
+    <style>none</style>
+    <subject>Welcome to Expense Tracker</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

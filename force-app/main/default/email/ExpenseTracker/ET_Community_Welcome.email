@@ -1,0 +1,10 @@
+Hi {!Receiving_User.FirstName},
+
+Welcome to Expense Tracker! Your account is ready.
+
+Log in at {!Community_Url} with your email address: {!Receiving_User.Email}
+
+If you did not create this account, please ignore this email.
+
+Thanks,
+The Expense Tracker team

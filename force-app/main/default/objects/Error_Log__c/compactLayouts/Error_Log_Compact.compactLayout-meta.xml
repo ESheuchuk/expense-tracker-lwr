@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Error_Log_Compact</fullName>
+    <fields>Name</fields>
+    <fields>Level__c</fields>
+    <fields>Source__c</fields>
+    <fields>Exception_Type__c</fields>
+    <fields>Running_User__c</fields>
+    <label>Error Log Compact</label>
+</CompactLayout>
