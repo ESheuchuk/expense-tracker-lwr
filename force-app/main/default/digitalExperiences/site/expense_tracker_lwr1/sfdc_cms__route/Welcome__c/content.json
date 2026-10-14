@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Welcome",
+  "contentBody" : {
+    "activeViewId" : "welcome",
+    "configurationTags" : [ ],
+    "pageAccess" : "RequiresLogin",
+    "routeType" : "custom-welcome",
+    "urlPrefix" : "welcome"
+  },
+  "urlName" : "welcome"
+}

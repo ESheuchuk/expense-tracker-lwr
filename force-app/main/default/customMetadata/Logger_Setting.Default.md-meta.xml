@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Default</label>
+    <protected>false</protected>
+    <values>
+        <field>Console_Enabled__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>Console_Log_Level__c</field>
+        <value xsi:type="xsd:string">ERROR</value>
+    </values>
+    <values>
+        <field>Apex_Debug_Level__c</field>
+        <value xsi:type="xsd:string">ERROR</value>
+    </values>
+    <values>
+        <field>Apex_Persist_Level__c</field>
+        <value xsi:type="xsd:string">ERROR</value>
+    </values>
+</CustomMetadata>

@@ -4,7 +4,7 @@
   "contentBody" : {
     "activeViewId" : "register",
     "configurationTags" : [ ],
-    "pageAccess" : "UseParent",
+    "pageAccess" : "Public",
     "routeType" : "self-register",
     "urlPrefix" : "SelfRegister"
   },

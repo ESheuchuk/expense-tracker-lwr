@@ -1,0 +1,50 @@
+<template>
+    <c-auth-card title={labels.title}>
+        <form class="form" onsubmit={handleSubmit} novalidate>
+            <div lwc:if={errorMessage} class="form__error" role="alert">{errorMessage}</div>
+            <lightning-input
+                class="form__field"
+                type="email"
+                name="email"
+                label={labels.email}
+                autocomplete="username"
+                required
+                message-when-value-missing={labels.required}
+                value={email}
+                onchange={handleChange}
+            ></lightning-input>
+            <c-password-input
+                class="form__field"
+                name="password"
+                label={labels.password}
+                autocomplete="current-password"
+                required
+                message-when-value-missing={labels.required}
+                value={password}
+                onchange={handleChange}
+            ></c-password-input>
+            <lightning-button
+                class="form__submit"
+                type="submit"
+                variant="brand"
+                label={labels.submit}
+                disabled={isLoading}
+            ></lightning-button>
+            <div lwc:if={isLoading} class="form__spinner">
+                <lightning-spinner
+                    alternative-text={labels.loading}
+                    size="small"
+                ></lightning-spinner>
+            </div>
+        </form>
+        <div slot="footer" class="links">
+            <a href={forgotUrl} data-id="forgot" onclick={handleForgot}>{labels.forgot}</a>
+            <p class="links__row">
+                <span>{labels.noAccount}</span>
+                <a href={registerUrl} data-id="register" onclick={handleRegister}
+                    >{labels.registerLink}</a
+                >
+            </p>
+        </div>
+    </c-auth-card>
+</template>

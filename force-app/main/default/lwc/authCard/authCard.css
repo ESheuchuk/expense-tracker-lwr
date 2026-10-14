@@ -1,0 +1,46 @@
+:host {
+    display: block;
+}
+
+.auth {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.auth__card {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 26rem;
+    padding: 1.25rem;
+    background: var(--dxp-g-root, #fff);
+    border: 1px solid var(--dxp-g-neutral, #e5e5e5);
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.auth__title {
+    margin: 0 0 1rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.auth__footer {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+@media (min-width: 48em) {
+    .auth {
+        padding: 3rem 1rem;
+    }
+
+    .auth__card {
+        padding: 2rem;
+    }
+
+    .auth__title {
+        font-size: 1.5rem;
+    }
+}

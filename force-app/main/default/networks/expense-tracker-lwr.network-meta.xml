@@ -31,12 +31,13 @@
     <enableTopicAssignmentRules>true</enableTopicAssignmentRules>
     <enableTopicSuggestions>false</enableTopicSuggestions>
     <enableUpDownVote>false</enableUpDownVote>
-    <forgotPasswordTemplate>unfiled$public/CommunityForgotPasswordEmailTemplate</forgotPasswordTemplate>
+    <forgotPasswordTemplate>ExpenseTracker/ET_Community_Forgot_Password</forgotPasswordTemplate>
     <gatherCustomerSentimentData>false</gatherCustomerSentimentData>
     <headlessForgotPasswordTemplate>unfiled$public/CommunityHeadlessForgotPasswordTemplate</headlessForgotPasswordTemplate>
     <headlessRegistrationTemplate>unfiled$public/CommunityHeadlessRegistrationTemplate</headlessRegistrationTemplate>
     <networkMemberGroups>
         <profile>Admin</profile>
+        <profile>Expense Community User</profile>
     </networkMemberGroups>
     <networkPageOverrides>
         <changePasswordPageOverrideSetting>Standard</changePasswordPageOverrideSetting>
@@ -47,15 +48,16 @@
     </networkPageOverrides>
     <picassoSite>expense_tracker_lwr1</picassoSite>
     <secondaryEmailSenderEnabled>false</secondaryEmailSenderEnabled>
-    <selfRegistration>false</selfRegistration>
+    <selfRegProfile>Expense Community User</selfRegProfile>
+    <selfRegistration>true</selfRegistration>
     <sendWelcomeEmail>true</sendWelcomeEmail>
     <site>expense_tracker_lwr</site>
     <siteArchiveStatus>NotArchived</siteArchiveStatus>
-    <status>UnderConstruction</status>
+    <status>Live</status>
     <tabs>
         <defaultTab>home</defaultTab>
         <standardTab>Chatter</standardTab>
     </tabs>
     <urlPathPrefix>vforcesite</urlPathPrefix>
-    <welcomeTemplate>unfiled$public/CommunityWelcomeEmailTemplate</welcomeTemplate>
+    <welcomeTemplate>ExpenseTracker/ET_Community_Welcome</welcomeTemplate>
 </Network>

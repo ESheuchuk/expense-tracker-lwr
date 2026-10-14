@@ -1,0 +1,16 @@
+<template>
+    <section class="features">
+        <h2 class="features__heading">{heading}</h2>
+        <ul class="features__grid">
+            <template for:each={features} for:item="feature">
+                <li key={feature.id} class="features__item">
+                    <c-feature-card
+                        icon={feature.icon}
+                        title={feature.title}
+                        text={feature.text}
+                    ></c-feature-card>
+                </li>
+            </template>
+        </ul>
+    </section>
+</template>

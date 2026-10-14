@@ -1,0 +1,13 @@
+<template>
+    <section class="hero">
+        <h1 class="hero__title">{labels.title}</h1>
+        <p class="hero__subtitle">{labels.subtitle}</p>
+        <lightning-button
+            lwc:if={isGuest}
+            class="hero__cta"
+            variant="brand"
+            label={labels.cta}
+            onclick={handleCta}
+        ></lightning-button>
+    </section>
+</template>
